@@ -1,0 +1,91 @@
+%-[Phần khai báo
+\documentclass[11pt,twoside,openany]{book} 
+\usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\pagestyle{fancy}
+\usepackage{picinpar}
+\usepackage{floatflt}
+\usepackage{epic}
+\usepackage{curves}
+\usepackage{makeidx}
+\usepackage{cases} 
+
+\usepackage{longtable}%
+\usepackage{multicol}%
+\usepackage[tight,vietnam]{minitoc}%
+\usepackage{fancybox}
+\usepackage[utf8]{vietnam}
+
+\usepackage[a4paper,inner=25mm,outer=15mm,top=15mm,bottom=15mm]{geometry}
+\renewcommand{\baselinestretch}{1.2}
+
+
+%\textheight 22truecm  
+%\textwidth 14truecm 
+\parskip 3pt
+%\headsep=12pt
+%\hoffset=-2cm
+%\renewcommand{\headwidth}{14truecm}
+
+%them vao
+\renewcommand{\chaptermark}[1]{\markboth{\it #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\it \thesection\ #1}}
+
+\lhead[\fancyplain{}{\thepage}]{\fancyplain{}{\rightmark}}
+\rhead[\fancyplain{}{\leftmark}]{\fancyplain{}{\thepage}}
+\cfoot{}
+\sloppy
+
+
+
+\usepackage{color, graphicx}
+\makeindex
+\makeglossary
+\renewcommand{\mtctitle}{\ } %dinh nghia lai ten
+\setcounter{minitocdepth}{1}
+%]-
+\theoremstyle{definition}
+\newtheorem{definition}{Định nghĩa}[chapter]
+
+
+\theoremstyle{definition}
+\newtheorem{baitap}{Bài tập}[chapter]
+\newtheorem{pp}{\textit{\textbf{Phương pháp}}}[subsection]
+\newtheorem{vd}{\textit{\textbf{Ví dụ}}}[subsection]
+\newtheorem{cau}{Câu}[chapter]
+ %\usepackage[usehighlevels]{alnumsec}
+
+\usepackage{answers}
+\Newassociation{loigiai1}{Answer}{loigiaichung}
+\Newassociation{loigiai2}{Answer}{loigiaichung}
+\Newassociation{loigiai3}{Answer}{loigiaichung}
+\Newassociation{loigiai4}{Answer}{loigiaichung}
+\Newassociation{loigiai5}{Answer}{loigiaichung}
+
+
+%\===Định dạng, tô màu tiêu đề Chương=======================
+\usepackage{titlesec}
+\titleformat{\chapter}[frame]{\Large}{\filright\Large\enspace Chương\thechapter\enspace}{16pt}{\Huge\bfseries\filcenter \textcolor{red}}
+
+\titleformat{\section}{\normalfont\Large\bfseries }{\thesection}{1em}{\textcolor{blue}}{}
+
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{\textcolor{green}}{}
+
+\titleformat{\paragraph}[runin]{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+
+\titleformat{\subparagraph}[runin]{\normalfont\normalsize\bfseries}{\thesubparagraph}{1em}{}
+
+
+
+
+%\========================================================
+
+
+
+\author{Nguyễn Văn Hùng}
+\title{Đại Số Sơ Cấp}
+\begin{document}
+	\include{part1/chapter1.tex}
+\end{document}
