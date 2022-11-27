@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.2)  26 NOV 2022 14:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.7.2)  27 NOV 2022 20:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -834,6 +834,7 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 12
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+(./part1/examp/ex001.tex) (./part1/examp/ex002.tex) (./part1/examp/ex003.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -844,7 +845,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3
 
-] (./baitapC1.tex))
+]
+Underfull \hbox (badness 4024) in paragraph at lines 15--54
+\OMS/cmsy/m/n/10.95 ,$ $[]$ $,$ $[]$ $,$ $[]$ $,$
+ []
+
+) (./part1/examp/ex004.tex) (./part1/examp/ex005.tex) (./part1/examp/ex006.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.74258pt, for example:
@@ -853,7 +859,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.74258pt}.
 
-[4]
+[4]) (./part1/examp/ex007.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+) (./part1/examp/ex008.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.74258pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.74258pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.74258pt}.
+
+[5]) (./part1/examp/ex009.tex) (./part1/examp/ex010.tex) (./baitapC1.tex))
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.74258pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.74258pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.74258pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.74258pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.74258pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.74258pt}.
+
+[7]
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the daisosocap.maf file.
@@ -878,13 +916,13 @@ Package minitoc(hints) Warning: W0024
 
 (./daisosocap.aux (./part1/chapter1.aux)) ) 
 Here is how much of TeX's memory you used:
- 7803 strings out of 478287
- 114999 string characters out of 5849290
- 434390 words of memory out of 5000000
- 25661 multiletter control sequences out of 15000+600000
+ 7854 strings out of 478287
+ 116041 string characters out of 5849290
+ 445390 words of memory out of 5000000
+ 25681 multiletter control sequences out of 15000+600000
  486964 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,65p,326b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,65p,326b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm
 -super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -897,10 +935,10 @@ ntex/vnr/vnbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbxti
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/vntex/vnr/vnti10.pfb>
-Output written on daisosocap.pdf (4 pages, 112852 bytes).
+Output written on daisosocap.pdf (7 pages, 127831 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
