@@ -51,9 +51,9 @@
 
 
 \theoremstyle{definition}
-\newtheorem{baitap}{Bài tập}[chapter]
+\newtheorem{baitap}{Bài tập}
 \newtheorem{pp}{\textit{\textbf{Phương pháp}}}[subsection]
-\newtheorem{vd}{\textit{\textbf{Ví dụ}}}[section]
+\newtheorem{vd}{\textit{\textbf{Ví dụ}}}
 \newtheorem{cau}{Câu}[chapter]
  %\usepackage[usehighlevels]{alnumsec}
 
@@ -87,5 +87,15 @@
 \author{Nguyễn Văn Hùng}
 \title{Đại Số Sơ Cấp}
 \begin{document}
-	\include{part1/chapter1.tex}
+	\include{part1/chapters.tex}
+\Opensolutionfile{loigiaichung}[loigiaichung1]
+\begin{baitap}
+This is a question.
+\begin{loigiai1}
+This is an answer.
+\end{loigiai1}
+\end{baitap}
+\Closesolutionfile{loigiaichung}
+\section{Answer}
+ \input{loigiaichung1}
 \end{document}
